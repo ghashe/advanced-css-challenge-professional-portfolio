@@ -4,9 +4,7 @@
   font-family: "josefin Sans", sans-serif;
   box-sizing: border-box;
 }
-* {
-  box-sizing: border-box;
-}
+
 body {
   font-size: 100%;
 }
@@ -15,22 +13,34 @@ body {
   display: flex;
 }
 
-/*-- implementing a common hover style for images and text boxes --*/
+span {
+  color: rgb(17, 0, 253);
+}
 
-.magnifier-one {
+/*---- Implementing common hover effect styling ----*/
+
+nav ul li a,
+#email-me a,
+.about-text a,
+.project-description-btn a,
+.hero a {
+  color: white;
+  text-decoration: none;
+  font-family: bold;
+  text-transform: capitalize;
   transition: transform 0.6s ease-out;
-  cursor: pointer;
 }
-.magnifier-two {
-  transition: transform 0.6s ease-out;
-  cursor: pointer;
-}
-.magnifier-one:hover {
+
+nav ul li a:hover,
+#email-me a:hover,
+.about-text a:hover,
+.project-description-btn a:hover,
+.hero a:hover {
+  color: rgb(255, 0, 0);
+  transition: 0.4s;
   transform: scale(1.5);
 }
-.magnifier-two:hover {
-  transform: scale(1.01);
-}
+
 .linkButton {
   background-color: #0089fa;
   color: rgb(255, 255, 255);
@@ -42,14 +52,7 @@ body {
   display: inline-block;
 }
 
-.zoomEffect {
-  transition: transform 0.6s ease-out;
-  cursor: pointer;
-}
-.zoomEffect:hover {
-  transform: scale(4);
-}
-
+/*---- Styling the hero section ----*/
 .hero {
   height: 100vh;
   width: 100%;
@@ -71,39 +74,13 @@ nav {
   letter-spacing: 1px;
   cursor: pointer;
 }
-span {
-  color: rgb(17, 0, 253);
-}
+
 nav ul li {
   list-style-type: none;
   display: inline-block;
   padding: 10px 25px;
 }
-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-family: bold;
-  text-transform: capitalize;
-}
-nav ul li a:hover,
-#email-me :hover {
-  color: rgb(255, 0, 0);
-  transition: 0.4s;
-}
 
-.btn {
-  background-color: rgb(17, 0, 253);
-  color: white;
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-weight: bold;
-  padding: 10px 25px;
-  border-radius: 30px;
-  transition: transform 0.4s;
-}
-.btn:hover {
-  transform: scale(1.2);
-}
 .content {
   position: absolute;
   top: 50%;
@@ -120,43 +97,23 @@ h3 {
   font-size: 1.5rem;
   margin-bottom: 10%;
 }
-
 h4 {
   color: #fcfc;
   font-size: 1.5em;
 }
 
-.newsletter form {
-  width: 380px;
-  max-width: 100%;
-  position: relative;
-}
-.newsletter form input:first-child {
-  display: inline-block;
+/*---- Styling the about section ----*/
+
+.about {
   width: 100%;
-  padding: 14px 130px 14px 15px;
-  border: 2px solis rgb(17, 0, 253);
-  outline: none;
-  border-radius: 20px;
-}
-.newsletter form input:last-child {
-  position: absolute;
-  display: inline-block;
-  outline: none;
-  border: none;
-  padding: 10px 30px;
-  border-radius: 20px;
-  background-color: blue;
-  color: rgb(255, 255, 255);
-  box-shadow: 0px 0px 5px #000, 0 0 15px #858585;
-  top: 6px;
-  right: 6px;
-}
-.about,
-.about-text {
-  width: 100%;
-  padding: 100px 0;
+  padding: 5% 0;
   background: #000000;
+}
+.about-text {
+  width: 60%;
+  color: rgb(255, 255, 255);
+  transition: transform 0.6s ease-out;
+  cursor: pointer;
 }
 .about img {
   height: auto;
@@ -169,14 +126,6 @@ h4 {
 .about img:hover,
 .about-text:hover {
   transform: scale(1.4);
-}
-
-.about-text {
-  width: 60%;
-  color: white;
-  margin-top: -10%;
-  transition: transform 0.6s ease-out;
-  cursor: pointer;
 }
 
 .main {
@@ -207,37 +156,28 @@ h4 {
   margin-bottom: 50px;
   font-size: 20px;
 }
-button {
-  background-color: rgb(17, 0, 253);
-  color: rgb(255, 255, 255);
-  text-decoration: none;
-  border: 2px solid transparent;
-  font-size: bold;
-  padding: 13px 30px;
-  border-radius: 20px;
-  transition: 4s;
-}
-button:hover {
-  background-color: rgb(111, 111, 112);
-  border: 2px solid rgb(17, 0, 253);
-  cursor: pointer;
-}
+
+/*---- Styling project section ----*/
 
 #my-works {
   width: 100%;
   padding: 100px 0;
   background: #000000;
+  align-content: flex-end;
 }
-.my-works h2 {
+
+#my-works h2 {
   color: rgb(255, 255, 255);
   text-align: center;
 }
 
-.my-works h3 {
+#my-works h3 {
   color: rgb(255, 255, 255);
   text-align: center;
   margin: 2%;
 }
+
+/*---- Styling my first project section ----*/
 
 .my-first-work {
   width: auto;
@@ -273,9 +213,9 @@ i {
   width: 70%;
   margin-right: 10%;
 }
-/* ====================== */
 
-/* ----------apply img hover style--------- */
+/* ---- Applyimg image hover style ---- */
+
 .my-first-work img,
 #my-second-project img,
 #my-third-project img,
@@ -296,32 +236,12 @@ i {
   transform: scale(2);
 }
 
-#email-me {
-  display: inline-block;
-  transition: transform 0.6s ease-out;
-  cursor: pointer;
-}
+/*---- applying style to other projects section ----*/
 
-.magnifier:hover {
-  transform: scale(1.1);
-}
-
-/* ==================== */
-/* .my-first-work img:hover {
-  transition: transform 0.2s ease-out;
-  cursor: pointer;
-} */
-
-/*----------  applying style to other projects section starts  ----------*/
-
-.my-works {
-  align-content: flex-end;
-}
 .other-works {
   width: 100%;
-  display: inline-block;
   height: auto;
-
+  display: inline-block;
   position: relative;
   text-align: center;
   padding-right: 50%;
@@ -341,6 +261,9 @@ i {
 #my-fifth-project {
   border-top: rgb(255, 255, 255) solid;
 }
+#my-fifth-project {
+  border-bottom: rgb(255, 255, 255) solid;
+}
 
 .other-project p {
   width: 85%;
@@ -354,9 +277,6 @@ i {
   padding-left: 10%;
 }
 
-.top-column {
-  display: inline-block;
-}
 .other-project img {
   width: 90%;
   margin: 0 10%;
