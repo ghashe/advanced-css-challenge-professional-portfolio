@@ -541,4 +541,14 @@ footer a {
   footer .menu-cont li a {
     color: #000000;
   }
+  #hero ul li {
+    width: 100%;
+    float: none;
+    text-align: left;
+  }
+  #hero .menu-cont,
+  footer .social-media-icons,
+  footer .menu-cont {
+    margin: 10px 0;
+  }
 }
