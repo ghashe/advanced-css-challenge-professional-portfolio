@@ -61,7 +61,11 @@ nav {
   padding-left: 8%;
   padding-right: 8%;
 }
-.logo {
+#hero .content {
+  display: block;
+  margin-top: 10px;
+}
+#hero .logo {
   color: rgb(255, 255, 255);
   font-size: 4em;
   letter-spacing: 1px;
