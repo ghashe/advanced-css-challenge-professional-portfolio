@@ -290,6 +290,8 @@ i {
 .my-first-work img {
   width: 70%;
   margin-right: 10%;
+  margin-top: 1px;
+  padding-top: 1px;
 }
 
 /* ---- Applyimg image hover style to my work images ---- */
@@ -302,9 +304,8 @@ i {
   transition: transform 0.6s ease-out;
   cursor: pointer;
 }
-.my-first-work img:hover {
-  transform: scale(6);
-}
+
+.my-first-work img:hover,
 #my-second-project img:hover,
 #my-third-project img:hover,
 #my-fourth-project img:hover,
