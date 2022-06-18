@@ -10,7 +10,7 @@
   - [About Me Page](#about-me-page)
   - [Projects Page](#projects-page)
     - [My First Project](#my-first-project)
-    - [My Second Project](#my-first-project)
+    - [My Second Project](#my-second-project)
   - [Skills Page](#skills-page)
 - [Features](#features)
 - [Installation and Deployment](#installation-and-deployment)
