@@ -1,4 +1,4 @@
-# Advanced CSS Professional Pportfolio
+# Advanced CSS Professional Pportfolio 🔥
 
 ![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
@@ -12,11 +12,11 @@
     - [My First Project](#my-first-project)
     - [My Second Project](#my-first-project)
   - [Skills Page](#skills-page)
-- [Features📋](#features-📋)
-- [Installation and Deployment 📦](#installation-and-deployment📦)
-- [Sections 📚](#sections-📚)
-- [Tools Used 🛠️](#tools-used-🛠️)
-- [Contributing 💡](#contributing-💡)
+- [Features](#features)
+- [Installation and Deployment](#installation-and-deployment)
+- [Sections](#sections)
+- [Tools Used](#tools-used)
+- [Contributing](#contributing)
 - [License](#license)
 - [Questions](#questions)
 
@@ -56,13 +56,17 @@
 
 ![alt text](/assets/images/skills.png)
 
-## Features 📋
+## Features
+
+# 📋
 
 ⚡️ Fully Responsive <br/>
 ⚡️ Valid HTML5 & CSS3<br/>
 ⚡️ Easy to modify <br/>
 
-## Installation and Deployment📦
+## Installation and Deployment
+
+# 📦
 
 - git clone the repo to your local so that you have the project
 - Modify the content of index.html
@@ -79,7 +83,9 @@ Use the following link to open it in your browser
 
 - https://ghashe.github.io/advanced-css-challenge-professional-portfolio/
 
-## Sections 📚
+## Sections
+
+# 📚
 
     ✔️ About <br/>
     ✔️ Projects<br/>
@@ -87,13 +93,17 @@ Use the following link to open it in your browser
     ✔️ Resume<br/>
     ✔️ Contact Info<br/>
 
-## Tools Used 🛠️
+## Tools Used
 
-    ✔️HTM <br/>
-    ✔️CSS <br/>
-    ✔️JavaScript <br/>
+# 🛠️
 
-## Contributing 💡
+    ✔️ HTM <br/>
+    ✔️ CSS <br/>
+    ✔️ JavaScript <br/>
+
+## Contributing
+
+# 💡
 
 It would be great if you could contribute in any way
 
