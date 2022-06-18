@@ -1,58 +1,120 @@
-##Project Title
-Professional Portfolio
+# Advanced CSS Professional Pportfolio
 
-## Table of contents
+![Badge](https://img.shields.io/badge/License-MIT-blue.svg)
 
-- [Project Title]( #Project Title)
-- [Description ](#Description)
-- [Getting Started](#Getting Started)
-- [Dependencies] (#Dependencies)
-- [Installing](#Installing)
-- [Executing program](#Executing program)
-- [Help](#Help)
-- [Authors](#Authors)
-- [Version History](#Version History)
-- [License](#License)
-- [Acknowledgments](#Acknowledgments)
+## Table of Content
 
-##Description
-t is one of the challenges for developing a responsive web application from the scratch using CSS, HTML, and Git, which is designed to prepare us for scenarios we will likely encounter as a web developer, thereby earning a certificate as a full stack web developer from the University of Minnesota by 2022.
+- [Description](#description)
+- [Website Preview](#website-preview)
+  - [Home Page](#home-page)
+  - [About Me Page](#about-me-page)
+  - [Projects Page](#projects-page)
+    - [My First Project](#my-first-project)
+    - [My Second Project](#my-first-project)
+  - [Skills Page](#skills-page)
+- [Features📋](#features-📋)
+- [Installation and Deployment 📦](#installation-and-deployment📦)
+- [Sections 📚](#sections-📚)
+- [Tools Used 🛠️](#tools-used-🛠️)
+- [Contributing 💡](#contributing-💡)
+- [License](#license)
+- [Questions](#questions)
 
-I improved an existing site's HTML and CSS code to make it more accessible without changing what it does and hosting it on Github.
+## Description
 
-##Getting Started
-Using the following link, you can clone the most recent version of repo into your machine
-SSH: git@github.com:ghashe/advanced-css-challenge-professional-portfolio.git
-HTTP: https://github.com/ghashe/advanced-css-challenge-professional-portfolio.git
+    This is a simple, user-friendly, and responsive static portfolio site built with HTML and CSS for Abyou Geletu that shows of my professional skills and talents to employers looking to fill a part-time or full-time position.
 
-    Use the following link to open it in your browser
-    https://ghashe.github.io/advanced-css-challenge-professional-portfolio/Develop
+## Website Preview
 
-##Dependencies
-• Internet connection
-• Any web browser
+<br/> <br/>
 
-##Installing
-• You do not need to install the application
+### Home Page
 
-##Executing program
-• Put the following URL on the address bar of any browser and press enter
-• https://ghashe.github.io/advanced-css-challenge-professional-portfolio/Develop
+![alt text](/assets/images/home-page.png)
+<br/> <br/>
 
-##Help
-• If you need any help running the website, contact me using the contact information provided in the contact section
+### About Me Page
 
-##Authors
-• UMN Boot Camp
-• ABYOU GELETU emandaabyou@gmail.com
+![alt text](/assets/images/about-me.png)
+<br/> <br/>
 
-##Version History
-• Initial Release
+## Projects Page
 
-##License
-• http://legal.courses.bootcampspot.com/privacy-policy
+<br/>
 
-##Acknowledgments
-• University of Minnesota Boot camp
-• GitHub Pages
-• Ben Kolde for his free photo photo he/she uploded on unsplash.com
+### My First Project
+
+![alt text](/assets/images/my-first%20project.png)
+<br/> <br/>
+
+### My Second Project
+
+![alt text](/assets/images/my-second-project.png)
+<br/> <br/>
+
+### Skills Page
+
+![alt text](/assets/images/skills.png)
+
+## Features 📋
+
+⚡️ Fully Responsive <br/>
+⚡️ Valid HTML5 & CSS3<br/>
+⚡️ Easy to modify <br/>
+
+## Installation and Deployment📦
+
+- git clone the repo to your local so that you have the project
+- Modify the content of index.html
+- Add or remove images from assets/img/ directory as per your requirement
+- Make changes to the details of the projects folder according to your needs
+- Using Github Pages, you can build your own website.
+- To deploy your website, push the generated code to the master or main branch.
+
+You can clone the most recent version of repo into your machine
+
+- https://github.com/ghashe/advanced-css-challenge-professional-portfolio.git
+
+Use the following link to open it in your browser
+
+- https://ghashe.github.io/advanced-css-challenge-professional-portfolio/
+
+## Sections 📚
+
+    ✔️ About <br/>
+    ✔️ Projects<br/>
+    ✔️ Skills<br/>
+    ✔️ Resume<br/>
+    ✔️ Contact Info<br/>
+
+## Tools Used 🛠️
+
+    ✔️HTM <br/>
+    ✔️CSS <br/>
+    ✔️JavaScript <br/>
+
+## Contributing 💡
+
+It would be great if you could contribute in any way
+
+- 👯 Git clone the repo to your local machine
+- 🔨🔨🔨 Develop your code
+- 🔃 Create a new pull request.
+
+## License
+
+    MIT license has been applied to this project
+
+## Questions
+
+If you have any questions, feel free to contact me via the following contact information:
+
+- Emain: emandaabyou@gmail.com
+- GitHub account: [ghashe](https://github.com/ghashe)
+- Linkedin: https://www.linkedin.com/in/abyou-geletu-5ba16622b
+
+---
+
+_This README has been generated by ❤ [Professional-README-generator](https://github.com/ghashe/professional-README-generator) © 2022_
+
+---
