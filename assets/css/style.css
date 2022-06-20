@@ -442,8 +442,8 @@ i {
   background: #000000;
 }
 .skill-cont {
-  padding: 20px 215px;
-  font-size: 2em;
+  padding: 20px 120px;
+  font-size: 1em;
   color: white;
 }
 .skill-cont ul {
@@ -451,13 +451,11 @@ i {
   color: rgb(255, 255, 255);
 }
 .skill-cont li {
-  margin-left: 95px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-left: 44px;
+  margin-top: 10px;
+  margin-bottom: 10px;
   color: rgb(250, 149, 119);
-  letter-spacing: 1px;
-  line-height: 25px;
-  font-size: 1em;
+  font-size: .8em;
   text-align: left;
 }
 
