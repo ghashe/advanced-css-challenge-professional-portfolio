@@ -22,21 +22,24 @@
 
 ## Description
 
-    This is a simple, user-friendly, and responsive static portfolio site built with HTML and CSS for Abyou Geletu that shows of my professional skills and talents to employers looking to fill a part-time or full-time position.
+This is a simple, user-friendly, and responsive static portfolio site built with HTML and CSS for Abyou Geletu <br/>
+that shows of my professional skills and talents to employers looking to fill a part-time or full-time position.
 
 ## Website Preview
 
-<br/> <br/>
+<br/>
 
 ### Home Page
 
 ![alt text](/assets/images/home-page.png)
-<br/> <br/>
+
+<br/>
 
 ### About Me Page
 
 ![alt text](/assets/images/about-me.png)
-<br/> <br/>
+
+<br/>
 
 ## Projects Page
 
@@ -45,12 +48,14 @@
 ### My First Project
 
 ![alt text](/assets/images/my-first%20project.png)
-<br/> <br/>
+
+<br/>
 
 ### My Second Project
 
 ![alt text](/assets/images/my-second-project.png)
-<br/> <br/>
+
+<br/>
 
 ### Skills Page
 
@@ -87,19 +92,19 @@ Use the following link to open it in your browser
 
 # 📚
 
-    ✔️ About <br/>
-    ✔️ Projects<br/>
-    ✔️ Skills<br/>
-    ✔️ Resume<br/>
-    ✔️ Contact Info<br/>
+    ✔️ About
+    ✔️ Projects
+    ✔️ Skills
+    ✔️ Resume
+    ✔️ Contact Info
 
 ## Tools Used
 
 # 🛠️
 
-    ✔️ HTM <br/>
-    ✔️ CSS <br/>
-    ✔️ JavaScript <br/>
+    ✔️ HTM
+    ✔️ CSS
+    ✔️ JavaScript
 
 ## Contributing
 

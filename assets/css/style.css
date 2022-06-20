@@ -442,12 +442,18 @@ i {
   background: #000000;
 }
 .skill-cont {
-  padding: 2% 5%;
+  padding: 20px 215px;
   font-size: 2em;
   color: white;
 }
 .skill-cont ul {
-  padding-left: 2%;
+  padding-left: 20px;
+  color: rgb(255, 255, 255);
+}
+.skill-cont li {
+  margin-left: 80px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: rgb(250, 149, 119);
 }
 
