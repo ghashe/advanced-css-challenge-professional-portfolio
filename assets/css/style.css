@@ -451,10 +451,14 @@ i {
   color: rgb(255, 255, 255);
 }
 .skill-cont li {
-  margin-left: 80px;
+  margin-left: 95px;
   margin-top: 20px;
   margin-bottom: 20px;
   color: rgb(250, 149, 119);
+  letter-spacing: 1px;
+  line-height: 25px;
+  font-size: 1em;
+  text-align: left;
 }
 
 .other-project p {
